@@ -1,0 +1,38 @@
+<!doctype html>
+<html lang="id">
+<head>
+  <meta charset="utf-8" />
+  <meta name="viewport" content="width=device-width,initial-scale=1" />
+  <title>Chatbot BK Sekolah</title>
+  <link rel="stylesheet" href="style.css" />
+</head>
+<body>
+  <main class="wrap">
+    <aside class="card panel">
+      <header class="panel-header">
+        <div class="title">
+          <div class="logo">💬</div>
+          <div>
+            <h1>Chatbot BK Sekolah</h1>
+            <p class="subtitle">Tempat aman untuk bercerita & mendapatkan dukungan</p>
+          </div>
+        </div>
+      </header>
+
+      <section id="chat" class="chat"></section>
+
+      <form id="composer" class="composer" autocomplete="off">
+        <input id="input" type="text" name="message" placeholder="Tulis ceritamu... (tekan Enter untuk kirim)" />
+        <button id="send" type="submit" aria-label="Kirim">Kirim</button>
+      </form>
+      <footer class="disclaimer">
+        <small>
+          Chatbot ini memberi dukungan umum — <strong>bukan pengganti</strong> konselor profesional. Jika ada risiko bahaya, hubungi layanan darurat setempat.
+        </small>
+      </footer>
+    </aside>
+  </main>
+
+  <script src="script.js"></script>
+</body>
+</html>
